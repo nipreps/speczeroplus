@@ -1,3 +1,11 @@
+# /// script
+# requires-python = ">=3.12"
+# dependencies = [
+#     "packaging",
+#     "pandas",
+#     "requests",
+# ]
+# ///
 import requests
 import collections
 from datetime import datetime, timedelta
@@ -27,8 +35,8 @@ core_packages = [
     "ipython",
     "zarr",
 ]
+plus60 = timedelta(days=int(365 * 5))
 plus36 = timedelta(days=int(365 * 3))
-plus24 = timedelta(days=int(365 * 2))
 
 # Release data
 
@@ -43,7 +51,7 @@ current_quarter_start = pd.Timestamp(
 cutoff = current_quarter_start - pd.DateOffset(months=9)
 
 
-def get_release_dates(package, support_time=plus24):
+def get_release_dates(package, support_time=plus36):
     releases = {}
 
     print(f"Querying pypi.org for {package} versions...", end="", flush=True)
@@ -93,7 +101,7 @@ package_releases = {
     "python": {
         version: {
             "release_date": datetime.strptime(release_date, "%b %d, %Y"),
-            "drop_date": datetime.strptime(release_date, "%b %d, %Y") + plus36,
+            "drop_date": datetime.strptime(release_date, "%b %d, %Y") + plus60,
         }
         for version, release_date in py_releases.items()
     }
