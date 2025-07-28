@@ -31,9 +31,11 @@ core_packages = [
     "scikit-image",
     "networkx",
     "scikit-learn",
-    "xarray",
-    "ipython",
-    "zarr",
+    "nibabel",
+    "nilearn",
+    # "xarray",
+    # "ipython",
+    # "zarr",
 ]
 plus60 = timedelta(days=int(365 * 5))
 plus36 = timedelta(days=int(365 * 3))
