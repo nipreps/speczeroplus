@@ -125,7 +125,9 @@ package_releases = {
 print("Saving Mermaid chart to chart.md")
 with open("chart.md", "w") as fh:
     fh.write(
-        """gantt
+        """\
+```mermaid
+gantt
 dateFormat YYYY-MM-DD
 axisFormat %m / %Y
 title Support Window"""
@@ -137,7 +139,7 @@ title Support Window"""
             fh.write(
                 f"\n{version} : {dates['release_date'].strftime('%Y-%m-%d')},{dates['drop_date'].strftime('%Y-%m-%d')}"
             )
-    fh.write("\n")
+    fh.write("\n```\n")
 
 # Print drop schedule
 
