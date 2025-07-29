@@ -2,12 +2,14 @@
 
 ###### Recommend drop support for:
 
-|          |       |                   |
-| -------- | ----- | ----------------- |
-| networkx | 2.7   | released Feb 2022 |
-| nilearn  | 0.9.0 | released Jan 2022 |
-| pandas   | 1.4.0 | released Jan 2022 |
-| scipy    | 1.8.0 | released Feb 2022 |
+|              |        |                   |
+| ------------ | ------ | ----------------- |
+| networkx     | 2.7    | released Feb 2022 |
+| nilearn      | 0.9.0  | released Jan 2022 |
+| nitransforms | 22.0.0 | released Feb 2022 |
+| pandas       | 1.4.0  | released Jan 2022 |
+| pybids       | 0.15.0 | released Mar 2022 |
+| scipy        | 1.8.0  | released Feb 2022 |
 
 #### 2025 - Quarter 2:
 
@@ -25,11 +27,12 @@
 
 ###### Recommend drop support for:
 
-|            |       |                   |
-| ---------- | ----- | ----------------- |
-| matplotlib | 3.6.0 | released Sep 2022 |
-| pandas     | 1.5.0 | released Sep 2022 |
-| scipy      | 1.9.0 | released Jul 2022 |
+|            |        |                   |
+| ---------- | ------ | ----------------- |
+| matplotlib | 3.6.0  | released Sep 2022 |
+| pandas     | 1.5.0  | released Sep 2022 |
+| scipy      | 1.9.0  | released Jul 2022 |
+| seaborn    | 0.12.0 | released Sep 2022 |
 
 #### 2025 - Quarter 4:
 
@@ -62,8 +65,10 @@
 | ------------ | ------ | ----------------- |
 | networkx     | 3.1    | released Apr 2023 |
 | nibabel      | 5.1.0  | released Apr 2023 |
+| nitransforms | 23.0.0 | released Jun 2023 |
 | numpy        | 1.25.0 | released Jun 2023 |
 | pandas       | 2.0.0  | released Apr 2023 |
+| pybids       | 0.16.0 | released Apr 2023 |
 | scikit-image | 0.21.0 | released Jun 2023 |
 | scikit-learn | 1.3.0  | released Jun 2023 |
 | scipy        | 1.11.0 | released Jun 2023 |
@@ -77,6 +82,7 @@
 | matplotlib | 3.8.0  | released Sep 2023 |
 | numpy      | 1.26.0 | released Sep 2023 |
 | pandas     | 2.1.0  | released Aug 2023 |
+| seaborn    | 0.13.0 | released Sep 2023 |
 
 #### 2026 - Quarter 4:
 
@@ -116,9 +122,11 @@
 
 ###### Recommend drop support for:
 
-|       |       |                   |
-| ----- | ----- | ----------------- |
-| numpy | 2.1.0 | released Aug 2024 |
+|              |        |                   |
+| ------------ | ------ | ----------------- |
+| nitransforms | 24.0.0 | released Aug 2024 |
+| numpy        | 2.1.0  | released Aug 2024 |
+| pybids       | 0.17.0 | released Jul 2024 |
 
 #### 2027 - Quarter 4:
 
@@ -131,7 +139,9 @@
 | nibabel      | 5.3.0  | released Oct 2024 |
 | nilearn      | 0.11.0 | released Dec 2024 |
 | nipype       | 1.9.0  | released Oct 2024 |
+| nitransforms | 24.1.0 | released Nov 2024 |
 | numpy        | 2.2.0  | released Dec 2024 |
+| pybids       | 0.18.0 | released Dec 2024 |
 | python       | 3.11   | released Oct 2022 |
 | scikit-image | 0.25.0 | released Dec 2024 |
 | scikit-learn | 1.6.0  | released Dec 2024 |
@@ -143,6 +153,7 @@
 |        |        |                   |
 | ------ | ------ | ----------------- |
 | nipype | 1.10.0 | released Mar 2025 |
+| pybids | 0.19.0 | released Mar 2025 |
 | scipy  | 1.15.0 | released Jan 2025 |
 
 #### 2028 - Quarter 2:
@@ -162,9 +173,10 @@
 
 ###### Recommend drop support for:
 
-|        |      |                   |
-| ------ | ---- | ----------------- |
-| python | 3.12 | released Oct 2023 |
+|              |        |                   |
+| ------------ | ------ | ----------------- |
+| nitransforms | 25.0.0 | released Jul 2025 |
+| python       | 3.12   | released Oct 2023 |
 
 #### 2029 - Quarter 4:
 
