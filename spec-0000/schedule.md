@@ -10,6 +10,7 @@
 | pandas       | 1.4.0  | released Jan 2022 |
 | pybids       | 0.15.0 | released Mar 2022 |
 | scipy        | 1.8.0  | released Feb 2022 |
+| templateflow | 0.8.0  | released Mar 2022 |
 
 #### 2025 - Quarter 2:
 
@@ -56,6 +57,7 @@
 | nilearn      | 0.10.0 | released Jan 2023 |
 | scikit-image | 0.20.0 | released Feb 2023 |
 | scipy        | 1.10.0 | released Jan 2023 |
+| templateflow | 23.0.0 | released Feb 2023 |
 
 #### 2026 - Quarter 2:
 
@@ -94,16 +96,18 @@
 | nibabel      | 5.2.0  | released Dec 2023 |
 | python       | 3.10   | released Oct 2021 |
 | scikit-image | 0.22.0 | released Oct 2023 |
+| templateflow | 23.1.0 | released Oct 2023 |
 
 #### 2027 - Quarter 1:
 
 ###### Recommend drop support for:
 
-|              |        |                   |
-| ------------ | ------ | ----------------- |
-| pandas       | 2.2.0  | released Jan 2024 |
-| scikit-learn | 1.4.0  | released Jan 2024 |
-| scipy        | 1.12.0 | released Jan 2024 |
+|              |                  |                                |
+| ------------ | ---------------- | ------------------------------ |
+| pandas       | 2.2.0            | released Jan 2024              |
+| scikit-learn | 1.4.0            | released Jan 2024              |
+| scipy        | 1.12.0           | released Jan 2024              |
+| templateflow | 24.0.0 to 24.2.0 | released Mar 2024 and Mar 2024 |
 
 #### 2027 - Quarter 2:
 

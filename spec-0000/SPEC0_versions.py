@@ -37,6 +37,7 @@ core_packages = [
     "nitransforms",
     "pybids",
     "seaborn",
+    "templateflow",
     # "xarray",
     # "ipython",
     # "zarr",
