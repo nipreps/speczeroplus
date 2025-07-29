@@ -33,6 +33,7 @@ core_packages = [
     "scikit-learn",
     "nibabel",
     "nilearn",
+    "nipype",
     # "xarray",
     # "ipython",
     # "zarr",

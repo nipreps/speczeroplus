@@ -17,6 +17,7 @@
 | ------------ | ------ | ----------------- |
 | networkx     | 2.8    | released Apr 2022 |
 | nibabel      | 4.0.0  | released Jun 2022 |
+| nipype       | 1.8.0  | released May 2022 |
 | numpy        | 1.23.0 | released Jun 2022 |
 | scikit-learn | 1.1.0  | released May 2022 |
 
@@ -129,6 +130,7 @@
 | networkx     | 3.4    | released Oct 2024 |
 | nibabel      | 5.3.0  | released Oct 2024 |
 | nilearn      | 0.11.0 | released Dec 2024 |
+| nipype       | 1.9.0  | released Oct 2024 |
 | numpy        | 2.2.0  | released Dec 2024 |
 | python       | 3.11   | released Oct 2022 |
 | scikit-image | 0.25.0 | released Dec 2024 |
@@ -138,9 +140,10 @@
 
 ###### Recommend drop support for:
 
-|       |        |                   |
-| ----- | ------ | ----------------- |
-| scipy | 1.15.0 | released Jan 2025 |
+|        |        |                   |
+| ------ | ------ | ----------------- |
+| nipype | 1.10.0 | released Mar 2025 |
+| scipy  | 1.15.0 | released Jan 2025 |
 
 #### 2028 - Quarter 2:
 
