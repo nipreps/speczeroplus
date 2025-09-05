@@ -28,6 +28,7 @@ core_packages = [
     "scipy",
     "matplotlib",
     "pandas",
+    "h5py",
     "scikit-image",
     "networkx",
     "scikit-learn",

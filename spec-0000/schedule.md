@@ -18,6 +18,7 @@
 
 |              |        |                   |
 | ------------ | ------ | ----------------- |
+| h5py         | 3.7.0  | released May 2022 |
 | networkx     | 2.8    | released Apr 2022 |
 | nibabel      | 4.0.0  | released Jun 2022 |
 | nipype       | 1.8.0  | released May 2022 |
@@ -51,6 +52,7 @@
 
 |              |        |                   |
 | ------------ | ------ | ----------------- |
+| h5py         | 3.8.0  | released Jan 2023 |
 | matplotlib   | 3.7.0  | released Feb 2023 |
 | networkx     | 3.0    | released Jan 2023 |
 | nibabel      | 5.0.0  | released Jan 2023 |
@@ -65,6 +67,7 @@
 
 |              |        |                   |
 | ------------ | ------ | ----------------- |
+| h5py         | 3.9.0  | released Jun 2023 |
 | networkx     | 3.1    | released Apr 2023 |
 | nibabel      | 5.1.0  | released Apr 2023 |
 | nitransforms | 23.0.0 | released Jun 2023 |
@@ -92,6 +95,7 @@
 
 |              |        |                   |
 | ------------ | ------ | ----------------- |
+| h5py         | 3.10.0 | released Oct 2023 |
 | networkx     | 3.2    | released Oct 2023 |
 | nibabel      | 5.2.0  | released Dec 2023 |
 | python       | 3.10   | released Oct 2021 |
@@ -115,6 +119,7 @@
 
 |              |                  |                                |
 | ------------ | ---------------- | ------------------------------ |
+| h5py         | 3.11.0           | released Apr 2024              |
 | matplotlib   | 3.9.0            | released May 2024              |
 | networkx     | 3.3              | released Apr 2024              |
 | numpy        | 2.0.0            | released Jun 2024              |
@@ -128,6 +133,7 @@
 
 |              |        |                   |
 | ------------ | ------ | ----------------- |
+| h5py         | 3.12.0 | released Sep 2024 |
 | nitransforms | 24.0.0 | released Aug 2024 |
 | numpy        | 2.1.0  | released Aug 2024 |
 | pybids       | 0.17.0 | released Jul 2024 |
@@ -156,6 +162,7 @@
 
 |        |        |                   |
 | ------ | ------ | ----------------- |
+| h5py   | 3.13.0 | released Feb 2025 |
 | nipype | 1.10.0 | released Mar 2025 |
 | pybids | 0.19.0 | released Mar 2025 |
 | scipy  | 1.15.0 | released Jan 2025 |
@@ -166,6 +173,7 @@
 
 |              |        |                   |
 | ------------ | ------ | ----------------- |
+| h5py         | 3.14.0 | released Jun 2025 |
 | networkx     | 3.5    | released May 2025 |
 | nilearn      | 0.12.0 | released Jun 2025 |
 | numpy        | 2.3.0  | released Jun 2025 |
@@ -181,6 +189,7 @@
 | ------------ | ------ | ----------------- |
 | nitransforms | 25.0.0 | released Jul 2025 |
 | python       | 3.12   | released Oct 2023 |
+| templateflow | 25.0.0 | released Aug 2025 |
 
 #### 2029 - Quarter 4:
 
