@@ -1,17 +1,3 @@
-#### 2025 - Quarter 1:
-
-###### Recommend drop support for:
-
-|              |        |                   |
-| ------------ | ------ | ----------------- |
-| networkx     | 2.7    | released Feb 2022 |
-| nilearn      | 0.9.0  | released Jan 2022 |
-| nitransforms | 22.0.0 | released Feb 2022 |
-| pandas       | 1.4.0  | released Jan 2022 |
-| pybids       | 0.15.0 | released Mar 2022 |
-| scipy        | 1.8.0  | released Feb 2022 |
-| templateflow | 0.8.0  | released Mar 2022 |
-
 #### 2025 - Quarter 2:
 
 ###### Recommend drop support for:
@@ -185,11 +171,21 @@
 
 ###### Recommend drop support for:
 
-|              |        |                   |
-| ------------ | ------ | ----------------- |
-| nitransforms | 25.0.0 | released Jul 2025 |
-| python       | 3.12   | released Oct 2023 |
-| templateflow | 25.0.0 | released Aug 2025 |
+|              |                  |                                |
+| ------------ | ---------------- | ------------------------------ |
+| nitransforms | 25.0.0 to 25.1.0 | released Jul 2025 and Sep 2025 |
+| pybids       | 0.20.0           | released Sep 2025              |
+| python       | 3.12             | released Oct 2023              |
+| templateflow | 25.0.0           | released Aug 2025              |
+
+#### 2028 - Quarter 4:
+
+###### Recommend drop support for:
+
+|        |        |                   |
+| ------ | ------ | ----------------- |
+| h5py   | 3.15.0 | released Oct 2025 |
+| pybids | 0.21.0 | released Oct 2025 |
 
 #### 2029 - Quarter 4:
 
@@ -198,3 +194,11 @@
 |        |      |                   |
 | ------ | ---- | ----------------- |
 | python | 3.13 | released Oct 2024 |
+
+#### 2030 - Quarter 4:
+
+###### Recommend drop support for:
+
+|        |      |                   |
+| ------ | ---- | ----------------- |
+| python | 3.14 | released Oct 2025 |
