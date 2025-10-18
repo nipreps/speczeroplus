@@ -11,7 +11,7 @@ import collections
 from datetime import datetime, timedelta
 
 import pandas as pd
-from packaging.version import Version
+from packaging.version import Version, InvalidVersion
 
 
 py_releases = {
@@ -74,7 +74,8 @@ def get_release_dates(package, support_time=plus36):
         ver = f["filename"].split("-")[1]
         try:
             version = Version(ver)
-        except:
+        except InvalidVersion as e:
+            print(f"Error: '{ver}' is an invalid version for '{package}'. Reason: {e}")
             continue
 
         if version.is_prerelease or version.micro != 0:
@@ -84,8 +85,8 @@ def get_release_dates(package, support_time=plus36):
         for format in ["%Y-%m-%dT%H:%M:%S.%fZ", "%Y-%m-%dT%H:%M:%SZ"]:
             try:
                 release_date = datetime.strptime(f["upload-time"], format)
-            except:
-                pass
+            except ValueError as e:
+                print(f"Error parsing invalid date: {e}")
 
         if not release_date:
             continue
@@ -186,7 +187,7 @@ def pad_table(table):
             if not width:
                 continue
             line += f"| {str.ljust(entry, width)} "
-        line += f"|"
+        line += "|"
         padded_table.append(line)
 
     return padded_table
