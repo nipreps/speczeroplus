@@ -1,44 +1,3 @@
-#### 2025 - Quarter 2:
-
-###### Recommend drop support for:
-
-|              |        |                   |
-| ------------ | ------ | ----------------- |
-| h5py         | 3.9.0  | released Jun 2023 |
-| networkx     | 3.1    | released Apr 2023 |
-| nibabel      | 5.1.0  | released Apr 2023 |
-| nitransforms | 23.0.0 | released Jun 2023 |
-| numpy        | 1.25.0 | released Jun 2023 |
-| pandas       | 2.0.0  | released Apr 2023 |
-| pybids       | 0.16.0 | released Apr 2023 |
-| scikit-image | 0.21.0 | released Jun 2023 |
-| scikit-learn | 1.3.0  | released Jun 2023 |
-| scipy        | 1.11.0 | released Jun 2023 |
-
-#### 2025 - Quarter 3:
-
-###### Recommend drop support for:
-
-|            |        |                   |
-| ---------- | ------ | ----------------- |
-| matplotlib | 3.8.0  | released Sep 2023 |
-| numpy      | 1.26.0 | released Sep 2023 |
-| pandas     | 2.1.0  | released Aug 2023 |
-| seaborn    | 0.13.0 | released Sep 2023 |
-
-#### 2025 - Quarter 4:
-
-###### Recommend drop support for:
-
-|              |        |                   |
-| ------------ | ------ | ----------------- |
-| h5py         | 3.10.0 | released Oct 2023 |
-| networkx     | 3.2    | released Oct 2023 |
-| nibabel      | 5.2.0  | released Dec 2023 |
-| python       | 3.11   | released Oct 2022 |
-| scikit-image | 0.22.0 | released Oct 2023 |
-| templateflow | 23.1.0 | released Oct 2023 |
-
 #### 2026 - Quarter 1:
 
 ###### Recommend drop support for:
@@ -135,9 +94,46 @@
 |              |        |                   |
 | ------------ | ------ | ----------------- |
 | h5py         | 3.15.0 | released Oct 2025 |
+| networkx     | 3.6    | released Nov 2025 |
+| numpy        | 2.4.0  | released Dec 2025 |
 | pybids       | 0.21.0 | released Oct 2025 |
 | python       | 3.13   | released Oct 2024 |
+| scikit-image | 0.26.0 | released Dec 2025 |
+| scikit-learn | 1.8.0  | released Dec 2025 |
 | templateflow | 25.1.0 | released Oct 2025 |
+
+#### 2028 - Quarter 1:
+
+###### Recommend drop support for:
+
+|         |        |                   |
+| ------- | ------ | ----------------- |
+| h5py    | 3.16.0 | released Mar 2026 |
+| nibabel | 5.4.0  | released Mar 2026 |
+| nilearn | 0.13.0 | released Jan 2026 |
+| nipype  | 1.11.0 | released Mar 2026 |
+| pandas  | 3.0.0  | released Jan 2026 |
+| pybids  | 0.22.0 | released Mar 2026 |
+| scipy   | 1.17.0 | released Jan 2026 |
+
+#### 2028 - Quarter 2:
+
+###### Recommend drop support for:
+
+|              |        |                   |
+| ------------ | ------ | ----------------- |
+| matplotlib   | 3.11.0 | released Jun 2026 |
+| numpy        | 2.5.0  | released Jun 2026 |
+| scikit-learn | 1.9.0  | released Jun 2026 |
+| scipy        | 1.18.0 | released Jun 2026 |
+
+#### 2028 - Quarter 3:
+
+###### Recommend drop support for:
+
+|         |        |                   |
+| ------- | ------ | ----------------- |
+| nilearn | 0.14.0 | released Jul 2026 |
 
 #### 2028 - Quarter 4:
 
